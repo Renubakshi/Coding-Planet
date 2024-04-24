@@ -1,0 +1,40 @@
+/* BASIC PPROPERTIES */
+body{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth; 
+   background-color: rgba(54, 51, 51, 0.918);
+   text-align: center;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+#jokes{
+    background-color: lightgoldenrodyellow;
+    border: .6rem ridge #000;
+    margin: 4rem;
+    padding: 2rem;
+    box-shadow: 0 0 1rem #fff;
+    font-weight: 700;
+}
+
+h1{
+    color: #fff;
+    text-shadow: 0 0 2rem #dd5252
+}
+
+#btn{
+    border: .1rem solid #000;
+    border-radius:2rem;
+    padding: .5rem;
+    width: fit-content;
+    box-shadow:   inset -.1rem -.2rem .2rem rgb(109, 106, 106);
+    line-height: 1.5rem;
+}
+
+#btn:hover{
+    box-shadow:  0 0.2rem .4rem rgb(218, 213, 213);
+}
